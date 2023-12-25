@@ -62,7 +62,7 @@ npm start
 
 Se podrá observar la siguiente iamgen de la dapp en el navegador
 
-![Aplicacion](images/pantalla_app.png)
+![Aplicacion](images/pantalla_app.PNG)
 
 # Arquitectura del Proyecto
 
