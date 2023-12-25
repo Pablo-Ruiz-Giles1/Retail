@@ -16,14 +16,14 @@ module.exports = async function(callback) {
     console.log("Cuenta del Propietario/Administrador =", ownerAddr);
 
     // Crea información personal para la cuenta del propietario/administrador
-    await retail.almacenarInformacionPersonal("Propietario", "Trabajo Propietario", "QmfMxzMBhbmQdpDm2QwPTgijEEZq9PRbseu4HKcafV46z6", { from: ownerAddr });
+    await retail.almacenarInformacionPersonal("Alejandro Ramirez", "Santander", "bafybeifzrr6hwrnjsbanek2vvoaobynrseqsbj6kfy5zyelvyu2a7xpy7", { from: ownerAddr });
 
     // Obtiene información personal de la cuenta del propietario/administrador
     const infoPropietario = await retail.informacionPersonal(ownerAddr);
     console.log("Información del Propietario:", infoPropietario);
 
     // Crea una prenda para la cuenta del propietario/administrador
-    await retail.crearPrenda("Material1", "Localizacion1", "Blusa","bafybeiahmnzbvu5z3fiedyygllauodzyjhaf6t7snhosuh6hksdbitvfhq", { from: ownerAddr });
+    await retail.crearPrenda("Lana merino", "Pamplona", "Chaqueta de lana","bafybeihar4kntyc3lrq5aqkajoqfcuueojtbqahw55k3qrljhqmtqqbj74", { from: ownerAddr });
 
     // Obtiene información de la prenda creada por el propietario/administrador
     const infoPrenda = await retail.obtenerInformacionPrenda(1);

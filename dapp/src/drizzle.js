@@ -14,7 +14,7 @@ import Retail from './contracts/Retail.json';
 
 // Opciones:
 const options = {
-    contracts: [ Retail],
+    contracts: [Retail],
       
     polls: {
         accounts: 3000,

@@ -4,6 +4,8 @@
 
 El proyecto tiene como objetivo principal la creación de una aplicación orientada al sector del Retail. El enfoque central es proporcionar un valor agregado a las prendas de vestir al revelar información sobre la procedencia de los materiales y el fabricante de cada prenda. La intención es establecer una conexión más significativa entre los consumidores y la ropa que adquieren, permitiéndoles conocer la historia detrás de cada producto.
 
+El contrato inteligente se puede observar en la dirección `0x8b5776FC018283074144031c8459588B663aB333` de [Polygon Mumbai](https://mumbai.polygonscan.com/address/0x8b5776FC018283074144031c8459588B663aB333).
+
 ## Requisitos
 
 Los siguientes requisitos previos son necesarios para ejecutar el proyecto:
@@ -57,6 +59,10 @@ Tras realizarlo, podrá ejecutar la Dapp, navegando a la carpeta dapp y ejecutan
 ```
 npm start
 ```
+
+Se podrá observar la siguiente iamgen de la dapp en el navegador
+
+![Aplicacion](images/pantalla_app.png)
 
 # Arquitectura del Proyecto
 

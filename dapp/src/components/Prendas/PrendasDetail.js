@@ -52,12 +52,12 @@ const PrendasDetail = () => {
               </li>
               <li>
                 <b>Localización del material:</b>{' '}
-                <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(datos?.lugarTrabajo)}`} target="_blank" rel="noopener noreferrer">
+                <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(datos?.localizacion)}`} target="_blank" rel="noopener noreferrer">
                   {datos?.localizacion}
                 </a>
               </li>
               <li>
-                <b>Id de la prenda:</b> {drizzleState.accounts[0]}
+                <b>Id de la prenda:</b> {addr}
               </li>
             </ul>
             <div>
