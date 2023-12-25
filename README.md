@@ -121,6 +121,6 @@ La carpeta `Dapp` alberga archivos generados en JavaScript para la creación de 
 
 ## Contacto
 
-Este trabajo se ha realizado por Pablo Ruiz Giles. Para más información ponerse en contacto a través de la cuenta de correo electrónico p.rgiles@alumnos.upm.es.
+Este trabajo se ha realizado por Pablo Ruiz Giles. Para más información ponerse en contacto a través de la cuenta de correo electrónico ruizgilespablo@gmail.es.
 
 
